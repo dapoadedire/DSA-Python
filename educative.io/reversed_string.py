@@ -5,7 +5,6 @@ def reverse_string(stack, input_str):
   rev_str = ""
   while not stack.isEmpty():
     rev_str += stack.pop()
-    print(rev_str)
 
   return rev_str
 
